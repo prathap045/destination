@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alegreya:ital@1&family=Alice&family=Catamaran:wght@100;200&family=Special+Elite&display=swap');
+
+*{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alice', serif;
+    font-family: 'Catamaran', sans-serif;
+}
+h1,p{
+    font-family: 'Bree Serif',serif;
+    text-align: center;
+    font-style: bold;
+}
+html,
+body{
+width:100%;
+overflow-x:hidden;
+overflow-y: visible;
+/* overflow-y: hidden; */
+}
+
+.head{
+    background-image: linear-gradient(to bottom, rgba(9, 63, 79, 0.52), rgba(16, 15, 16, 0.73)),url(getty_476806693_200014502000928098_67676.jpg);
+    /* height: 145vh; */
+    color: white;
+    /* position: fixed; */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /* background: black; */
+    /* width: 300%; */
+
+}
+.accordion-button{
+    text-align: center !important;
+}
+#icon{
+    color: white;
+}
+.date{
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    text-align: center;
+}
+#logo>img{
+   
+    margin-top: -10%;
+}
+#heading-1,.head{
+   
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alice', serif;
+    font-family: 'Catamaran', sans-serif;
+    /* font-family: 'Special Elite', cursive; */
+    /* font-family: 'Special Elite', cursive; */
+}
+#yellow{
+    color: yellow;
+}
+
+.p-title{
+    /* font-size: large; */
+    font-weight: 1000;
+    font-style: bold;
+    letter-spacing:0.4rem;
+    /* background: black; */
+  
+
+    /* width: 150%; */
+    position: relative;
+}
+.p-title:before {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 5px;
+    background: #fff;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  .p-title:after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 5px;
+    background: #fff;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+#blue{
+    color: rgba(33, 155, 228, 1);
+    font-weight: 1000;
+    font-style: bold;
+}
+#head2{
+    font-style: bold;
+}
+.ac{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
+    font-weight: 1000;
+    font-style: bold;
+
+}
+#pf{
+    text-decoration: line-through;
+}
+#btn{
+     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); ;
+    /* color: black !important; */
+    border-style: none;
+    /* border: 2px solid aqua; */
+    padding:10px 30px;
+    border-radius: 5px;
+    margin: 50px 0px;
+    font-weight:1000;
+    font-style: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#btn>span a{
+    text-decoration: none;
+    color: black;
+}
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    letter-spacing:0.2rem;
+    font-weight:1000;
+    font-style: bold;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+.warning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -5%; */
+}
+/* ------------------------------ */
+.wtl{
+    margin-top: 10px;
+    /* font-size: large; */
+    font-weight: 1000;
+    text-align: center;
+    font-style:bold;
+    background-color: hsl(159, 67%, 94%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ip{
+    display: flex;
+    /* justify-items: center; */
+    /* justify-content: center;
+    align-items: center; */
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.ci>img{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+
+}
+.ct{
+    /* font-size: 30px; */
+    /* margin-left: 10px; */
+    padding: 10px 0px;
+    text-align: left;
+    width: 100%;
+    /* font-weight: 900;
+    font-style: bold; */
+    /* margin-right: 0.5%; */
+}
+.accordion-body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#faq{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top:2.5% ;
+    /* margin:0 auto ; */
+}
+.true{
+background-color: #224e9a;
+}
+.footer{
+    margin-top: 1%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
