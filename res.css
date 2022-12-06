@@ -31,6 +31,10 @@
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
     }
+	#hmc{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 0;
+}
  
     .my-float {
       margin-top: 398px;
